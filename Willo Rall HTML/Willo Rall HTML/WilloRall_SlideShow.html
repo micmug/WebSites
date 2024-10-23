@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="WilloRall_SlideShow.css" />
+    <link rel="stylesheet" href="WilloRall_Style.css" />
+    <!-- Link zur CSS-Datei -->
+
+    <script src="WilloRall_Script.js" defer></script>
+    <!-- 'Link' zur JS-Datei -->
+
+    <title>Slideshow</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="WilloRall.html" style="padding-left: 5%; padding-right: 5%">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Links</button>
+        <div class="dropdown-content">
+          <a
+            href="https://www.google.de/maps/place/Falschengehren+3,+74429+Sulzbach-Laufen/@48.9463671,9.8983798,248m/data=!3m1!1e3!4m6!3m5!1s0x4798ffdbcaf55b63:0x930e98623ce29d91!8m2!3d48.9464775!4d9.897864!16s%2Fg%2F11qpv0757s?entry=ttu"
+            target="_blank"
+            >Karte</a
+          >
+          <a
+            href="http://www.gusto-graeser.info/Monteverita/Personen/Rall%20Willo/WilloRall.html"
+            target="_blank"
+            >Gusto Gräser</a
+          >
+          <a href="WilloRallForm.html">Newsletter</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <!--  -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="Bilder/rall1.jpg" style="width: 100%" alt="sorry, Bild nicht auffindbar"/>
+        <div class="text">Bauernhaus bei Laufen</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="Bilder/rall2.jpg" style="width: 100%" alt="sorry, Bild nicht auffindbar"/>
+        <div class="text">Baumgarten in Schönbronn</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="Bilder/rall3.jpg" style="width: 100%" alt="sorry, Bild nicht auffindbar"/>
+        <div class="text">Undatiertes Selbstbildnis</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="Bilder/rall4.jpg" style="width: 100%" alt="sorry, Bild nicht auffindbar"/>
+        <div class="text">Postillon</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+  </body>
+</html>

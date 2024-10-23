@@ -1,0 +1,120 @@
+
+/*  SLIDESHOW   */
+
+.slideshow-container {
+    box-sizing:border-box;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 7vh;   
+    }
+
+
+    .mySlides {
+    display: none;
+    }
+
+
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    .text {
+    background-color: rgba(0,0,0,0.3);
+    margin-bottom: -5px;
+    color: #f2f2f2;
+    font-size: 1.5em;
+    padding: 5px 0px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+
+
+    .numbertext {
+    background-color: rgba(0,0,0,0.3);    
+    margin-top: 0px;
+    color: #f2f2f2;
+    font-size: 1em;
+    padding: 25px 40px;
+    position: absolute;
+    
+    }
+
+
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+
+    .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+  /* FORMULAR */
+
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}  
